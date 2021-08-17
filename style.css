@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    color: #DFEEEA;
+    background-color: #DFEEEA;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.main {
+    width: 50%;
+    background-color: #2F5D62;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    padding: 50px 0px;
+}
+.header h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+#survey-form {
+    padding: 0px 30px;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0px;
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+label,p {
+    letter-spacing: 1px;
+    padding: 8px 0px;
+}
+input, select, button, textarea {
+    font-family: 'Balsamiq Sans', cursive;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+textarea {
+    margin: 10px 0px;
+    width: 100%;
+}
+.btn {
+    font-weight: 700;
+    background-color: #5E8B7E;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin: 20px 0px 30px 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn:hover {
+    background-color: #A4B787;
+    cursor: pointer;
+}
+
+
+@media (max-width: 980px ) {
+    .main {
+        width: 80%;
+    }
+}
